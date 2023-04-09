@@ -1,5 +1,5 @@
 # rp2040-pHAT
-![board](screenshots/board.png)
+![board](screenshots/board.jpg)
 
 Easy to use rp2040 development board.
 
@@ -16,7 +16,7 @@ GPIO 28 + GPIO 29
 # using with Raspberry Pi
 In order to upload code to the raspberry pi you will need to solder the solder-jumpers on the back of the board.
 There are 4 solder jumpers on the back, these allow SWD + UART communication directly between the rp2040 and the raspberry pi host system.
-![screenshot](screenshots/swd_jumpers.png)
+![screenshot](screenshots/swd_jumpers.jpg)
 
 see the install_sdk.sh, bash script
 running that script on the raspberry pi, will setup the pi to allow SWD programming via OpenOCD
