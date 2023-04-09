@@ -14,8 +14,10 @@ GPIO 28 + GPIO 29
 
 
 # using with Raspberry Pi
-In order to upload code to the raspberry pi you will need to solder the solder-jumpers on the back of the board.
+In order to upload code from the raspberry pi you will need to solder the solder-jumpers on the back of the board.
+
 There are 4 solder jumpers on the back, these allow SWD + UART communication directly between the rp2040 and the raspberry pi host system.
+
 ![screenshot](screenshots/swd_jumpers.jpg)
 
 # OpenOCD from Raspberry Pi
