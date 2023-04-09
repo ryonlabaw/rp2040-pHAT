@@ -18,6 +18,7 @@ In order to upload code to the raspberry pi you will need to solder the solder-j
 There are 4 solder jumpers on the back, these allow SWD + UART communication directly between the rp2040 and the raspberry pi host system.
 ![screenshot](screenshots/swd_jumpers.jpg)
 
+# OpenOCD from Raspberry Pi
 see the install_sdk.sh, bash script
 running that script on the raspberry pi, will setup the pi to allow SWD programming via OpenOCD
 
