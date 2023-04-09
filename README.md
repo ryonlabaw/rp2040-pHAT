@@ -20,9 +20,10 @@ There are 4 solder jumpers on the back, these allow SWD + UART communication dir
 
 # OpenOCD from Raspberry Pi
 see the install_sdk.sh, bash script
-running that script on the raspberry pi, will setup the pi to allow SWD programming via OpenOCD
 
-You can also manual step thru the commands, just open the file and copy-n-paste the lines manually.
+If you run that script on the raspberry pi, will setup the pi to allow SWD programming via OpenOCD
+
+You can also manual step thru the commands, just open the file and copy-n-paste the lines manually into your raspberry pi terminal.
 
 
 # example code
