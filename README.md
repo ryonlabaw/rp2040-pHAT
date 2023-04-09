@@ -25,6 +25,10 @@ If you run that script on the raspberry pi, will setup the pi to allow SWD progr
 
 You can also manual step thru the commands, just open the file and copy-n-paste the lines manually into your raspberry pi terminal.
 
+# OpenOCD from a Desktop (remote)
+You can also start OpenOCD on the PI in remote mode (esp. debugging)
+
+This will allow you to debug the rp2040 from the PI, remotely on your desktop pc (in vccode for example)
 
 # example code
 This board is 100% compatible with all rasberry pi pico examples.
