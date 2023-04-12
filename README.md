@@ -36,6 +36,23 @@ This will allow you to debug the rp2040 from the PI, remotely on your desktop pc
 This board is 100% compatible with all rasberry pi pico examples.
 See https://github.com/raspberrypi/pico-examples
 
+
+# UF2 not booting correctly?
+If you run into issues using UF2 files via usb, and the device not booting correctly.
+There is a timing issue with the rp2040 not booting at times using UF2 files, but the fix is simple.
+
+Add the following line to your CMakeLists.txt file
+
+> add_compile_definitions(PICO_XOSC_STARTUP_DELAY_MULTIPLIER=64)
+
+This will add a small delay to startup to allow booting properly.
+
+This problem doesn't seem to affect SWD uploaded ELF files. So the added flag should not be needed when using SWD.
+
+for more info see:
+https://github.com/raspberrypi/pico-sdk/pull/457
+https://github.com/raspberrypi/pico-sdk/pull/401
+
 # more examples
 there will be more examples available
 One neat example code allows using the rp2040-pHAT as an SPI Slave to the raspberry pi board.
